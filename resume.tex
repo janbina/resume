@@ -1,0 +1,77 @@
+%! Suppress = MissingLabel
+\documentclass[margin]{res}
+
+\setlength{\textwidth}{5.1in}
+\usepackage[hidelinks]{hyperref}
+\usepackage{setspace}
+
+\begin{document}
+
+    \moveleft.5\hoffset\centerline{\large\textbf{Jan Bína}}
+
+    \moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}\smallskip
+
+    \moveleft.5\hoffset\centerline{\href{https://janbina.com}{https://janbina.com}}
+    \moveleft.5\hoffset\centerline{\href{mailto:jan@janbina.com}{jan@janbina.com}}
+    \moveleft.5\hoffset\centerline{Prague, Czech Republic}
+
+    \begin{resume}
+
+        % #########################################################################################
+        % \section{SUMMARY}
+        % What to put in here?
+
+        % #########################################################################################
+        \section{EXPERIENCE}
+        \textsc{Android Developer} \hfill Jul 2016 -- present\\
+        SKOUMAL, s.r.o.
+        \vspace{2mm}
+        \begin{itemize}
+            \item worked in a team of three to four Android developers and in cooperation with iOS team
+            \item developed many apps, both for our internal projects and for our clients (PwC, Integromat, Vocabulary Miner, \ldots)
+            \item co-developed Teanity, our own framework built around Jetpack libraries
+            \item experience with both developing apps from scratch and taking over functional apps and refactoring them
+        \end{itemize}
+
+        \vspace{5mm}
+
+        \textsc{Android Developer} \hfill Sep 2019 -- Apr 2020\\
+        Twisto
+        \vspace{2mm}
+        \begin{itemize}
+            \item worked in a team of three to four Android developers, and in a delivery team responsible for installments
+            \item experience with a large codebase
+            \item refactored some of the old parts from Java MVP to Kotlin MVVM
+        \end{itemize}
+
+        % #########################################################################################
+        \section{EDUCATION}
+        \textsc{Czech Technical University in Prague} \hfill Sep 2014 -- Jun 2020\\
+        Faculty of Information Technology (Computer Science)
+        \vspace{2mm}
+        \begin{itemize}
+            \item graduated with a master's degree
+        \end{itemize}
+
+        \vspace{5mm}
+
+        \textsc{University of Helsinki} \hfill Aug 2018 -- May 2019\\
+        Faculty of Science (Computer Science)
+        \vspace{2mm}
+        \begin{itemize}
+            \item one year exchange program (Erasmus+)
+            \item courses taken: Design and Analysis of Algorithms, String Processing Algorithms, Automated Logical Reasoning, Introduction to Artificial Intelligence, Introduction to Data Science, Linux System Administration, Network Analysis
+        \end{itemize}
+
+        % #########################################################################################
+        \section{SKILLS}
+        \onehalfspacing
+        English (advanced), Czech (native)\\
+        Kotlin, Java, Go, Haskell \\
+        Android SDK, Jetpack libraries, Kotlin coroutines, RxJava, most of the commonly used
+        Android libraries (Retrofit, Moshi, Glide, Dagger, Koin, Epoxy, \ldots) \\
+        REST, GraphQL, SQLite, Firebase \\
+        Git, Linux
+
+    \end{resume}
+\end{document}
